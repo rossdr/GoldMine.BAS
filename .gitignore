@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 # Just stuff I don't want in github
 *.txt
+/Mine/Maze.png
