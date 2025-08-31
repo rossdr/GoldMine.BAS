@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox1 = new PictureBox();
             timer1 = new System.Windows.Forms.Timer(components);
             pictureBox2 = new PictureBox();
@@ -65,6 +66,7 @@
             ClientSize = new Size(287, 213);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "GOLDMINE";
             Activated += Form1_Activated;

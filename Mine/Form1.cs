@@ -282,7 +282,7 @@ namespace Mine
                 var player = new SoundPlayer(@"SoundEffects\Winner.wav");
                 player.Play();
                 MessageBoxButtons buttons = MessageBoxButtons.YesNo;
-                DialogResult result = MessageBox.Show($"You gathered ${_score} worth of gold\r\nand got out of the mine alive!\r\n\r\nC O N G R A T U L A T O N S\r\n\r\nContinue?", "Win", buttons);
+                DialogResult result = MessageBox.Show($"You gathered ${_score} worth of gold\r\nand got out of the mine alive!\r\n\r\nC O N G R A T U L A T I O N S\r\n\r\nContinue?", "Win", buttons);
                 if (result == DialogResult.No) Close(); //win.
 
                 _seed++;
